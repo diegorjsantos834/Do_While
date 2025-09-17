@@ -18,14 +18,14 @@ public class Do_e_While_atividade {
     //algoritmo 1,Exibir todos os numeros pares existentes entre 1 e 20.
     System.out.println("Mostrar números pares de 1 a 20");//mostrar oq o algoritmo faz
 
-    int impares= 1; //numero que começa a contagem
-    System.out.println("1"); //começa a contagem
+    int pares= 0; //numero que começa a contagem
+    System.out.println("0"); //começa a contagem
     
     do {//vai fazer um laço para contar numeros impares
-        impares +=2; //vai adiconar 2 a variavel num1
-        System.out.println(impares);//mostra o resultado
+        pares +=2; //vai adiconar 2 a variavel num1
+        System.out.println(pares);//mostra o resultado
           
-   } while (impares <19);//caso num1 for menor que 19 continua a repetição, caso for maior para
+   } while (pares <20);//caso num1 for menor que 19 continua a repetição, caso for maior para
 
    //algoritmo 2, Efetuar a tabuada do número informado.
    System.out.println("Digite um número!: ");//Pergunta o numero
